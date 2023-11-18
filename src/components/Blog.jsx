@@ -2,6 +2,7 @@ import BlogItem from "./BlogItem";
 import ONE from "../assets/blogbg/blog1.jpg";
 import TWO from "../assets/blogbg/blog2.jpg";
 import THREE from "../assets/blogbg/blog3.jpg";
+import FOUR from "../assets/blogbg/blog4.jpeg";
 
 const Projects = () => {
   return (
@@ -14,7 +15,13 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <BlogItem
-          bg={ONE}
+          bg={FOUR}
+          name="New Website!"
+          description=""
+          hyperlink="https://www.linkedin.com/pulse/check-out-our-website-the-golang-way-bglue?utm_source=share&utm_medium=guest_desktop&utm_campaign=copy"
+        />
+        <BlogItem
+          bg={THREE}
           name="Web Dev Volunteers!"
           description=""
           hyperlink="https://www.linkedin.com/posts/the-golang-way_interested-in-contributing-to-open-source-activity-7127768084194488321-V7G9?utm_source=share&utm_medium=member_desktop"
@@ -26,7 +33,7 @@ const Projects = () => {
           hyperlink="https://www.linkedin.com/posts/the-golang-way_opensource-goprogramming-accessibility-activity-7125508092359843840-vyyT?utm_source=share&utm_medium=member_desktop"
         />
         <BlogItem
-          bg={THREE}
+          bg={ONE}
           name="Exciting News!"
           description=""
           hyperlink="https://www.linkedin.com/posts/the-golang-way_the-golang-way-activity-7121969704214175744-0vUq?utm_source=share&utm_medium=member_desktop"

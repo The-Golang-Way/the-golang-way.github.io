@@ -5,7 +5,7 @@ const Projects = () => {
         Mission Statement
       </h1>
       <p className="text-center py-8 text-black text-4xl">
-        The Golang Way, a dynamic software organization on a mission to
+        The Golang Way, a dynamic software club on a mission to
         transform the digital landscape. We are dedicated to developing
         open-source Go alternatives to inaccessible and costly applications,
         making technology accessible for everyone.
